@@ -1,8 +1,10 @@
 <script>
-
+	import Tailwindcss from './Tailwindcss.svelte';
 </script>
 
 <main>
+	<Tailwindcss />
+
 	<h1>Hello world!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 </main>
@@ -19,10 +21,10 @@
 	h1 {
 		color: #ff3e00;
 		text-transform: uppercase;
-		font-size: 4em;
 		font-weight: 100;
 		padding: 1rem 0;
 		position: relative;
+		@apply text-6xl;
 	}
 
 	@media (min-width: 640px) {

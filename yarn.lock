@@ -31,7 +31,7 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@fullhuman/postcss-purgecss@^2.1.2":
+"@fullhuman/postcss-purgecss@^2.1.2", "@fullhuman/postcss-purgecss@^2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-2.3.0.tgz#50a954757ec78696615d3e118e3fee2d9291882e"
   integrity sha512-qnKm5dIOyPGJ70kPZ5jiz0I9foVOic0j+cOzNDoo8KoCf6HjicIZ99UfO2OmE7vCYSKAAepEwJtNzpiiZAh9xw==
@@ -1879,7 +1879,7 @@ postcss-js@^2.0.0:
     camelcase-css "^2.0.1"
     postcss "^7.0.18"
 
-postcss-load-config@^2.0.0:
+postcss-load-config@^2.0.0, postcss-load-config@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/postcss-load-config/-/postcss-load-config-2.1.0.tgz#c84d692b7bb7b41ddced94ee62e8ab31b417b003"
   integrity sha512-4pV3JJVPLd5+RueiVVB+gFOAa7GWc25XQcMp86Zexzke69mKf6Nx9LRcQywdz7yZI9n1udOxmLuAwTBypypF8Q==
@@ -2682,6 +2682,11 @@ wide-align@^1.1.0:
   integrity sha512-QGkOQc8XL6Bt5PwnsExKBPuMKBxnGxWWW3fU55Xt4feHozMUhdUMaBCk290qpm/wG5u/RSKzwdAC4i51YigihA==
   dependencies:
     string-width "^1.0.2 || 2"
+
+win-node-env@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/win-node-env/-/win-node-env-0.4.0.tgz#2d9dc991702920c73eaa1d644655b773886da5cb"
+  integrity sha512-bf4TV/NOBEazlHJW/bOns7u2JaHe3f5bz8BYanm/xuqJ405NG9OK3VAI1Y2WvHJsAo4GMU8EYTHSh59Q3UfHvA==
 
 wrap-ansi@^5.1.0:
   version "5.1.0"
